@@ -6,7 +6,7 @@ servers, and local-LLM integration. Mostly **Go** and **Rust**.
 
 📍 Chengdu, China · 🌐 Remote · 💬 中文 / English
 
-> **🟢 Available for freelance / contract work** — AI agents, RAG & knowledge
+> **🟢 Available for full-time remote & contract work** — AI agents, RAG & knowledge
 > graphs, MCP integrations, and LLM-powered automation. If you need an LLM wired
 > into your real systems (not just a chatbot), let's talk → **ll_faw@hotmail.com**
 
