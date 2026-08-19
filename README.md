@@ -22,9 +22,12 @@ servers, and local-LLM integration. Mostly **Go** and **Rust**.
 - **[harness-rs](https://github.com/liliang-cn/harness-rs)** — a Rust agent framework: ReAct loop, pluggable tools & skills, cross-session recall, a self-evolving learning loop, scheduler, sandbox, and an MCP client/server. Published on crates.io as the `harness-rs-*` crates.
 - **[agent-go](https://github.com/liliang-cn/agent-go)** — an AI Agent SDK designed for Go developers (teams, tasks, memory, MCP, tool calling).
 - **[tagit](https://github.com/liliang-cn/tagit)** — an open-source, self-hosted Claude Tag: @mention an AI agent in your team chat, get auditable work back.
+- **[oss-agent](https://github.com/liliang-cn/oss-agent)** — a product-agnostic platform for AI ops & support agents over an OSS project: GraphRAG knowledge base, ReAct agent, and a deterministic red-line safety wall. The whole domain comes from one `domain.toml`.
+- **[agentcli](https://github.com/liliang-cn/agentcli)** — an app-agnostic Go core for driving the Claude Code / Codex / Gemini CLIs: command building, stream-json parsing, usage accounting, PTY runner, hooks.
 
 ### 🧪 Evaluation — know when your agent is wrong
 - **[eval-go](https://github.com/liliang-cn/eval-go)** — a native-Go LLM/RAG/agent evaluation framework: deterministic + LLM-as-judge metrics, `go test` integration, red-teaming, CI regression gates. The Go answer to DeepEval/RAGAS.
+- **[testtui](https://github.com/liliang-cn/testtui)** — test TUIs, CLIs and agentic terminal apps via PTY + VT100 emulation: declarative YAML cases, an AI layer (harness-rs), and an MCP server.
 
 ### 🖥️ Rendering agent output
 - **[aigui](https://github.com/liliang-cn/aigui)** — a framework-agnostic TypeScript SDK that renders streaming LLM output as live UI: progressive markdown, cards, charts, math, and diagrams, with React / Vue / vanilla adapters.
