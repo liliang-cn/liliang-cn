@@ -26,6 +26,9 @@ servers, and local-LLM integration. Mostly **Go** and **Rust**.
 ### 🧪 Evaluation — know when your agent is wrong
 - **[eval-go](https://github.com/liliang-cn/eval-go)** — a native-Go LLM/RAG/agent evaluation framework: deterministic + LLM-as-judge metrics, `go test` integration, red-teaming, CI regression gates. The Go answer to DeepEval/RAGAS.
 
+### 🖥️ Rendering agent output
+- **[aigui](https://github.com/liliang-cn/aigui)** — a framework-agnostic TypeScript SDK that renders streaming LLM output as live UI: progressive markdown, cards, charts, math, and diagrams, with React / Vue / vanilla adapters.
+
 ### 🧠 Memory, knowledge graphs & RAG
 - **[cortexdb](https://github.com/liliang-cn/cortexdb)** ⭐ — a pure-Go, single-file AI memory & knowledge-graph library: vector + hybrid (BM25/FTS5) search, GraphRAG, and one-pass structured-data import. Zero external services, fully embedded.
 - **[askdoc](https://github.com/liliang-cn/askdoc)** — ask questions over your own documents (RAG).
