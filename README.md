@@ -30,6 +30,7 @@ servers, and local-LLM integration. Mostly **Go** and **Rust**.
 - **[testtui](https://github.com/liliang-cn/testtui)** — test TUIs, CLIs and agentic terminal apps via PTY + VT100 emulation: declarative YAML cases, an AI layer (harness-rs), and an MCP server.
 
 ### 🖥️ Rendering agent output
+- **[superai-desktop](https://github.com/liliang-cn/superai-desktop)** — a cross-platform Wails v2 desktop assistant and full showcase of agent-go: sandbox + browser + vision + autonomy + graph memory + skills, plus an SSE emotion protocol that drives external 2D/3D avatars (Live2D / VRM / Unity).
 - **[aigui](https://github.com/liliang-cn/aigui)** — a framework-agnostic TypeScript SDK that renders streaming LLM output as live UI: progressive markdown, cards, charts, math, and diagrams, with React / Vue / vanilla adapters.
 
 ### 🧠 Memory, knowledge graphs & RAG
