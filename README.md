@@ -14,10 +14,17 @@ servers, and local-LLM integration. Mostly **Go** and **Rust**.
 
 ## What I build
 
+### 📊 Governed data access for AI agents
+- **[dataintelligence](https://github.com/liliang-cn/dataintelligence)** ⭐ — a governed semantic layer + MCP gateway that makes your data warehouse safe for AI agents. Agents ask for a *metric by dimensions* — never raw SQL — so wrong joins, wrong grains, and fan-out inflation are blocked structurally, not by prompting. Built on the libraries below: agent-go, cortexdb, eval-go, and semantic-go.
+- **[semantic-go](https://github.com/liliang-cn/semantic-go)** — the semantic-layer compiler underneath: declare metrics/dimensions/joins once in YAML, compile to fan-out/chasm-safe SQL.
+
 ### 🤖 Agent frameworks & orchestration
 - **[harness-rs](https://github.com/liliang-cn/harness-rs)** — a Rust agent framework: ReAct loop, pluggable tools & skills, cross-session recall, a self-evolving learning loop, scheduler, sandbox, and an MCP client/server. Published on crates.io as the `harness-rs-*` crates.
 - **[agent-go](https://github.com/liliang-cn/agent-go)** — an AI Agent SDK designed for Go developers (teams, tasks, memory, MCP, tool calling).
-- **[roma](https://github.com/liliang-cn/roma)** — Runtime Orchestrator for Multi-Agents.
+- **[tagit](https://github.com/liliang-cn/tagit)** — an open-source, self-hosted Claude Tag: @mention an AI agent in your team chat, get auditable work back.
+
+### 🧪 Evaluation — know when your agent is wrong
+- **[eval-go](https://github.com/liliang-cn/eval-go)** — a native-Go LLM/RAG/agent evaluation framework: deterministic + LLM-as-judge metrics, `go test` integration, red-teaming, CI regression gates. The Go answer to DeepEval/RAGAS.
 
 ### 🧠 Memory, knowledge graphs & RAG
 - **[cortexdb](https://github.com/liliang-cn/cortexdb)** ⭐ — a pure-Go, single-file AI memory & knowledge-graph library: vector + hybrid (BM25/FTS5) search, GraphRAG, and one-pass structured-data import. Zero external services, fully embedded.
